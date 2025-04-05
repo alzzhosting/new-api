@@ -27,7 +27,7 @@ const app = express();
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: false }));
 const port = process.env.PORT || 3000;
-const validKeys = ['IM-REREZZ.2007', 'REREZZ-OFFICIAL.0208'];
+const validKeys = ['KENZDEV', 'KENZSHOP'];
 const requestToday = `https://databse-apis.glitch.me/api/requesttoday/today`
 const glitchApiUrl = 'https://databse-apis.glitch.me/api/increment-usage';
 const requestAll = async () => {
